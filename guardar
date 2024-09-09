@@ -1,0 +1,50 @@
+from tkinter import *
+from tkinter import messagebox, simpledialog
+import tkinter as tk
+from random import choice, randint
+
+#Here is the beginning of the game, below an if will be created in case the choice is made by just one player
+# (it is impossible to play alone) 
+choice_player = [
+    1, 2, 3, 4
+    ]
+
+#Color of the your army
+list_army = [
+    "red", "Black", "Yellow", "Branco"
+    ]
+#separation of territories
+South_America = [
+    "Brazil","Argentina","Colombia","Peru","Uruguay","Bolivia","Caribbean","French Guinea"
+]
+North_America = [
+    "Mexico","California","New York","Labrador","Ottawa","Vancouver","Mackenzie","Alaska","Greenland",
+]
+Europe = [
+    "Iceland","England","Germany","France","Sweden","Poland","Moscow","Netherlands"
+]
+Africa = [
+    "Algeria","Egypt","Congo","Sudan","Madagascar","South Africa","Nigeria",
+]
+Asia = [
+    "Middle East","Aral","Omsk","Dudinka","Siberia","Mongolia","Vladivostok","China","India","Japan","Vietnam"
+]
+Oceania = [
+    "Borneo","Sumatra","New Zealand","Australia", "Fiji"
+]
+window = Tk()
+class FirstWindow:
+    def __init__(self):
+        window.mainloop()
+        self.window = window
+  #self.button = tk.simpledialog.askinteger(self.principal_window, text="Please enter a number of the players are play, 2 to 4", parent=block_request_top, 
+#minvalue=1, maxvalue=4, command= self.hello_world)
+  #self.button = tk.simpledialog.askinteger(self.principal_window, text='How many players will play?', command=self.hello_world)
+  
+  #self.button.pack( )
+#def hello_world(self):
+  #messagebox.showinfo('Adoro a Apostila Python Progressivo!')
+    #def screen(self):
+        #self.window.title("Welcome to WAR")
+
+#gui = FirstWindow()
