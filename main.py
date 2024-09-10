@@ -56,7 +56,20 @@ class FirstWindow:
         self.frame_2 = Frame(self.window, bd=1, bg="black", highlightbackground="black", highlightthickness=3)
         self.frame_2.place(relx=0.03, rely=0.008, relwidth=0.3, relheight=0.2)
         self.frame_2.configure(background="white")
+
+
         
+#Action for definition of the players and separation of the territory 
+#Here, the name, army and territory of the players are definited
+class Player():
+    def __init__(self, player_name, total_army, total_territory):
+        self.player_name = player_name
+        self.total_army = total_army
+        self.total_territory = total_territory
+    
+
+
+
 
 
 FirstWindow()
